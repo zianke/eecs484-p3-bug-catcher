@@ -1,6 +1,6 @@
 # eecs484-p3-bug-catcher
 
-Bug catcher for EECS 484 Project #3 B+ Trees, inspired by an anonymous EECS 484 classmate. Currently supports reporting runtime errors and comparing "find" outputs with correct ones ("print" output check not supported).
+Bug Catcher for EECS 484 Project #3 B+ Trees, inspired by an anonymous EECS 484 classmate. Currently supports reporting runtime errors and comparing "find" outputs with correct ones ("print" output check not supported).
 
 Happy Debugging!
 
