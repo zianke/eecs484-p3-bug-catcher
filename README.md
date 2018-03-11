@@ -1,6 +1,6 @@
 # eecs484-p3-bug-catcher
 
-Bug Catcher for EECS 484 Project #3 B+ Trees, inspired by an anonymous EECS 484 classmate on Piazza. Currently supports reporting runtime errors and comparing "find" outputs with correct ones ("print" output check not supported).
+Bug Catcher for EECS 484 (Database Management Systems) Project #3 B+ Trees, inspired by an anonymous EECS 484 classmate on Piazza. Currently supports reporting runtime errors and comparing "find" outputs with correct ones ("print" output check not supported).
 
 To make full use of this Bug Catcher, write as many invariants as possible in satisfiesInvariant() of your **LeafNode** class and **InnerNode** class.
 
