@@ -1,12 +1,12 @@
 import os
-import re
+import sys
 from random import *
 
 test_times = 100  # number of testcases
 line_num = 100  # line number of each testcase
 
-proj3exe_filename_1 = 'proj3exe_kza'
-proj3exe_filename_2 = 'proj3exe_wsy'
+proj3exe_filename_1 = sys.argv[1]
+proj3exe_filename_2 = sys.argv[2]
 
 for test in range(test_times):
     data = set()
