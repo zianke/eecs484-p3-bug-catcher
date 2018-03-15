@@ -1,5 +1,6 @@
 .idea/
-proj3exe
+proj3exe*
+*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
