@@ -39,7 +39,11 @@ for test in range(test_times):
         print('{} test #{} {}'.format(proj3exe_filename_2, test, 'error'))
         exit()
 
+    same = False
     if open('{}_output_{}.txt'.format(proj3exe_filename_1,test)).read() == open('{}_output_{}.txt'.format(proj3exe_filename_2,test)).read():
         os.remove('{}_output_{}.txt'.format(proj3exe_filename_1,test))
         os.remove('{}_output_{}.txt'.format(proj3exe_filename_2,test))
         os.remove('random_test_{}.txt'.format(test))
+        same = True
+
+    print('test #{} {}'.format(test, 'same' if same else 'different'))
